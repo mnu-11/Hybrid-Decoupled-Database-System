@@ -5,7 +5,7 @@
 Written in C with SQLite. Names, folders, owners, sizes, block pointers and tags live in a database next to the disk image,
 and a write-ahead log keeps the two in step, so a crash in the middle of a write never leaves a half-old, half-new file.
 
-![The HybridFS browser terminal showing a session: init, mkdir, write, tag, search and a SQL query](docs/Screenshot 2026-11-24 202844.png)
+![The HybridFS browser terminal showing a session: init, mkdir, write, tag, search and a SQL query](docs/Screenshot2026-11-24202844.png)
 
 ```
  hybridfs> init disk.img 16
